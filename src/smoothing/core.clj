@@ -1,1 +1,2 @@
-(ns smoothing.core)
+(ns smoothing.core
+  (:gen-class))
