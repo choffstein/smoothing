@@ -1,5 +1,5 @@
 (ns smoothing.moving-averages
-  (:require [clojure.contrib.generic.math-functions :as math]))
+  (:require [clojure.algo.generic.math-functions :as math]))
 
 (defn- average [lst] (/ (reduce + lst) (count lst)))
 (defn simple-moving-average [window lst] (map average (partition window 1 lst)))
