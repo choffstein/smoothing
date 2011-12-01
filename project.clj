@@ -4,5 +4,4 @@
                  [org.clojure/algo.generic "0.1.0"]]
   :dev-dependencies [[swank-clojure "1.3.0-SNAPSHOT"
                       :exclusions [org.clojure/clojure
-                                   org.clojure/clojure-contrib]]]
-  :main smoothing.core)
+                                   org.clojure/clojure-contrib]]])
