@@ -2,6 +2,8 @@
   :description "FIXME: write"
   :dependencies [[org.clojure/clojure "1.3.0-beta1"]
                  [org.clojure/algo.generic "0.1.0"]]
-  :dev-dependencies [[swank-clojure "1.3.0-SNAPSHOT"
-                      :exclusions [org.clojure/clojure
-                                   org.clojure/clojure-contrib]]])
+
+  :plugins [[s3-wagon-private "1.1.1"]]
+
+  :repositories {"nfr-releases" "s3p://newfound-mvn-repo/releases/"
+                 "nfr-snapshots" "s3p://newfound-mvn-repo/snapshots/"})
